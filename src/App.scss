@@ -1,3 +1,23 @@
-body {
-  background-color: orangered;
+header.light {
+  padding: 40px;
+  border: 10px solid #000;
+}
+
+header.dark {
+  padding: 40px;
+  border: 10px solid #000;
+  background-color: #000;
+  color: #fff;
+}
+
+footer.light {
+  padding: 40px;
+  border: 10px solid #000;
+}
+
+footer.dark {
+  padding: 40px;
+  border: 10px solid #000;
+  background-color: #000;
+  color: #fff;
 }
