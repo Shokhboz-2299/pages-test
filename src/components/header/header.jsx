@@ -7,7 +7,7 @@ const Header = () => {
 return (
   <header className ={thema}>
     <h2>Header</h2>
-    <select onChange = {(evt) => { setThema(evt.target.value)}} >
+    <select defaultValue = {thema} onChange = {(evt) => { setThema(evt.target.value)}} >
       <option value="light">Light</option>
       <option value="dark">Dark</option>
     </select>
