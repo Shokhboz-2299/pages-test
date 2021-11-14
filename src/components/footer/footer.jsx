@@ -1,8 +1,7 @@
-import { useContext } from "react";
-import { Context } from "../../context/themeContext";
+import useThema from "../../hooks/useThema";
 
 const Footer = () => {
-  const {thema} = useContext(Context);
+  const [thema] = useThema();
   return (
     <footer className = {thema}>
       <h2>Footer</h2>
